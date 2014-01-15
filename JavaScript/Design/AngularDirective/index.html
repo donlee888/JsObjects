@@ -1,0 +1,16 @@
+<!doctype html>
+<html ng-app='ElvenApp'>
+	<head>
+		<title>Angular Getting Started</title>
+		<link href="index.css" type="text/css" rel="stylesheet" />
+		<script src="angular.js"></script>
+		<script src="index.js"></script>
+	</head>
+	<body>
+		<label for="checkbox">Show Picture</label>
+		<input id="checkbox" type="checkbox" ng-model="visible">		
+		<div showpicture="visible">		
+			<img src="IMG_6405.JPG" alt="picture">
+		</div>
+	</body>
+</html>

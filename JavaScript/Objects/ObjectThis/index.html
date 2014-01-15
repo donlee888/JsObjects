@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+
+  <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame 
+       Remove this if you use the .htaccess -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+  <title>index</title>
+  <meta name="description" content="" />
+  <meta name="author" content="Charlie" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <script src='http://code.jquery.com/jquery.js'></script>
+  <script src="ObjectThis.js"></script>
+</head>
+
+<body>
+  <div>
+    <header>
+      <h1>index</h1>
+    </header>
+   
+    <div>
+       <p id="test01"><strong>In a function <em>this</em> is the Window</strong>:  </p>
+       <p id="test02"><strong>For a function inside an object <em>this</em> is the object</strong>: </p>
+       <p id="test03"><strong>If you call new on a function, then <em>this</em> will be the function, even in the constructor01</strong>: </p>
+       <p id="test04"><strong>When you call new on a function, the return is an instance of that function</strong>: </p>
+	   <p id="test05"><strong>In the constructor of the module pattern <em>this</em> is the object</strong>: </p>
+	   <p id="test06"><strong>In a button handler of the module pattern <em>this</em> is the object</strong>: </p>
+	   <button id="testButton">Test Button</button>
+    </div>
+  </div>
+</body>
+</html>

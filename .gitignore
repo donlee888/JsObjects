@@ -1,0 +1,14 @@
+.metadata
+Thumbs.db
+*.apk
+*.dex
+*.bak
+resources.ap_
+jarlist.cache
+geany_run_script.bat
+node_modules
+MyTempDir
+DeleteMe*
+*.*~
+npm-debug.log
+foo.bat

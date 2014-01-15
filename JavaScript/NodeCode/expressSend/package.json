@@ -1,0 +1,9 @@
+{
+  "name": "expressSend",
+  "description": "Work with express and sending information",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "3.1"
+  }
+}
